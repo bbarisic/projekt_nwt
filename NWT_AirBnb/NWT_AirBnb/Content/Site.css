@@ -22,3 +22,41 @@ select,
 textarea {
     max-width: 280px;
 }
+/*#myCarousel {
+    width:
+}*/
+#myCarousel
+{
+    width:100%;
+    height:500px;
+}
+.carousel-inner {
+  
+  width: 100%;
+  height: 500px;
+}
+.carousel-inner > .item >img,
+.carousel-inner > .item > tuzla > zadar1 > split > img{
+    width: 100%;
+  height: 500px;
+}
+.form-group > .form-control
+{
+   width: 100%; 
+}
+.kontejner{
+    margin-top:20px;
+}
+.thumbnail > .img,
+.thumbnail > london > img{
+    width:100%;
+    height:100%;
+}
+.crno
+{
+    background-color: black;
+}
+.podnaslov {
+    margin-top: 20px;
+    font-size: large;
+}
