@@ -1,5 +1,7 @@
-﻿using System;
+﻿using NWT_AirBnb.DAL;
+using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -12,6 +14,7 @@ namespace NWT_AirBnb
     {
         protected void Application_Start()
         {
+            Database.SetInitializer(new AirBnbInitializer());
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
