@@ -13,9 +13,9 @@ namespace NWT_AirBnb.DAL
         {
             var korisnici = new List<Korisnik>
             {
-                new Korisnik() {Ime = "Marko", Prezime="Maric", Email = "marko@fesb.hr", Slika = "~/Images/london.jpg", Password="aaaa", Username="marko" },
-                new Korisnik() {Ime = "Ana", Prezime = "Anic", Email = "ana@gmail.com", Slika= "~/Images/london.jpg", Password="aaaa", Username="marko" },
-                new Korisnik() {Ime = "Pero", Prezime="Peric", Email = "pero@gmail.com", Slika="~/Images/london.jpg", Password="aaaa", Username="marko" }
+                new Korisnik() {Ime = "Marko", Prezime="Maric", Email = "marko@fesb.hr", Slika = "~/Images/london.jpg", Password="aaaaa", Username="marko" },
+                new Korisnik() {Ime = "Ana", Prezime = "Anic", Email = "ana@gmail.com", Slika= "~/Images/london.jpg", Password="aaaab", Username="ana" },
+                new Korisnik() {Ime = "Pero", Prezime="Peric", Email = "pero@gmail.com", Slika="~/Images/london.jpg", Password="aaaac", Username="pero" }
             };
             korisnici.ForEach(korisnik => context.Korisniks.Add(korisnik));
 
